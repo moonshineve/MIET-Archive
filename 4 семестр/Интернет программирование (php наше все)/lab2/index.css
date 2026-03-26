@@ -1,0 +1,37 @@
+body {
+  font-family: "WDXL Lubrifont TC", sans-serif;
+  font-style: normal;
+}
+
+.outer-container{
+  margin: 5vh;
+}
+
+.flexbox-container{
+    display: flex;
+    width: 100%;
+}
+
+.grid_element {
+    flex-direction: column; 
+    padding: 5px;
+}
+
+#item1 {
+    width: 10px;
+    background-color: orange;
+}
+
+#item2{
+    background-color: yellow;
+}
+
+#item3{
+    width: 10px;
+    background-color: greenyellow;
+}
+
+#error{
+    color: red;
+    font-family: monospace;
+}

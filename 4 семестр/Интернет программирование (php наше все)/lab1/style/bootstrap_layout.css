@@ -1,0 +1,17 @@
+.col1{
+    background-color: cyan;
+    height: 30vh;
+    padding: 2vh;
+}
+
+.col2{
+    background-color: white;
+}
+
+.col3{
+    background-color: orange;
+}
+
+.col1, .col2, .col3{
+    padding: 3vh;
+}

@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1771059873 source:c:\users\qweqw\workspaces\Поностальгировать о МИЭТе\4 сем\ЭВМ\lab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1770827405 source:c:\users\qweqw\workspaces\Поностальгировать о МИЭТе\4 сем\ЭВМ\lab1\task1.c
+	<stdio.h>
+
+1770917673 source:c:\users\qweqw\workspaces\Поностальгировать о МИЭТе\4 сем\ЭВМ\lab1\task2.c
+	<stdio.h>
+	<string.h>
+
+1771001649 source:c:\users\qweqw\workspaces\Поностальгировать о МИЭТе\4 сем\ЭВМ\lab1\task3.c
+	<stdio.h>
+
+1771064896 source:c:\users\qweqw\workspaces\Поностальгировать о МИЭТе\4 сем\ЭВМ\lab1\task4.c
+	<stdio.h>
+	<ctype.h>
+	<limits.h>
+
+1771758910 source:c:\users\qweqw\workspaces\Поностальгировать о МИЭТе\4 семестр\ЭВМ\lab1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
+1770827405 source:c:\users\qweqw\workspaces\Поностальгировать о МИЭТе\4 семестр\ЭВМ\lab1\task1.c
+	<stdio.h>
+
+1770917673 source:c:\users\qweqw\workspaces\Поностальгировать о МИЭТе\4 семестр\ЭВМ\lab1\task2.c
+	<stdio.h>
+	<string.h>
+
+1771758973 source:c:\users\qweqw\workspaces\Поностальгировать о МИЭТе\4 семестр\ЭВМ\lab1\task3.c
+
+1771758978 source:c:\users\qweqw\workspaces\Поностальгировать о МИЭТе\4 семестр\ЭВМ\lab1\task4.c
+
+1771758982 source:c:\users\qweqw\workspaces\Поностальгировать о МИЭТе\4 семестр\ЭВМ\lab1\task5.c
+

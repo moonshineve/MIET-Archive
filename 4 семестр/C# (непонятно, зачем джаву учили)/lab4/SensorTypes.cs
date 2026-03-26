@@ -1,0 +1,5 @@
+﻿enum SensorTypes
+{
+    IndorSensor,
+    OutdoorSensor
+}

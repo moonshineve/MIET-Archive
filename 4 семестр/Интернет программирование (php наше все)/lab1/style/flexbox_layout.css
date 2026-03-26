@@ -1,0 +1,57 @@
+
+.flexbox-container{
+    display: flex;
+    width: 100%;
+}
+
+.item1,
+.item2,
+.item3 {
+    display: flex;
+    flex-direction: column; 
+    box-sizing: border-box;   /* чтобы padding не ломал ширину */
+    padding: 5px;                /* расстояние между фото */
+    align-items: center;
+}
+
+.item1 {
+    width: 300px;
+    background-color: orange;
+}
+
+.item2{
+    background-color: yellow;
+    flex: 1;
+}
+
+.item3{
+    width: 300px;
+    background-color: greenyellow;
+}
+
+img {
+    max-width: 70px;  
+    max-height: auto;   
+    object-fit: contain;
+    padding: 5px;
+}
+
+@media (max-width: 576px) {
+
+    .flexbox-container {
+        flex-direction: column;
+    }
+
+    .item1,
+    .item2,
+    .item3 {
+        width: 100%;
+        flex-direction: row;        
+        justify-content: center;  
+    }
+
+    img {
+        width: 80px;              /* фиксированный размер */
+        height: auto;
+    }
+}

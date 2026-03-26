@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+    <head>
+        <title>flexbox</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
+        
+        <link href="index.css" rel="stylesheet">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+        <script src="check_form.js"></script>
+    </head>
+
+    <body>
+
+
+        <div class="outer-container">
+            <h1>Форма</h1>
+
+            <div class="flexbox-container"> 
+
+                <div id="item1" class="grid_element"> </div>  
+
+                <div id="item2" class="grid_element"> 
+                    
+                    
+                    <form action="/" method="GET" id="my-form">
+
+                        <div>
+                            <label>ФИО:</label>
+                            <input name="fio" type="text" id="fio" placeholder="Винсент Ван Гог">
+                        </div>
+                        
+                        <div>
+                            <label>Какой ты хлеб:</label>
+                            <select name="bread" id="bread">
+                                <option value="" disabled hidden selected></option>
+                                <option value="borodinsky">Бородинский</option>
+                                <option value="lavash">Лаваш</option>
+                                <option value="baguet">Багет</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <input name="gosuslugi" id="gosuslugi" type="checkbox">
+                            <label>Получить результаты психологического теста в Госуслугах</label>
+                        </div>
+
+                        <div>
+                            <input name="green_card" id="green_card" type="checkbox">
+                            <label>Подать кандидатуру на получение грин-карты</label>
+                        </div>
+
+                        <div>
+                            <input name="max" id="max" type="checkbox">
+                            <label>Зарегистрироваться в мессенджере MAX</label>
+                        </div>
+
+                        <div>
+                            <input type="submit">
+                        </div>
+                    </form>
+
+                    <div id="error"></div>
+                </div> 
+
+                <div id="item3" class="grid_element"> </div>
+
+            </div>
+
+        </div>
+
+    </body>
+</html>
+
